@@ -15,15 +15,12 @@ class BottomButtonRibbon extends Component
 
 	return (
 	
-			<View style={styles.wrapper} >
-<View style={styles.hamburger}>
+    <View style={styles.wrapper} >
+    <View style={styles.hamburger}>
 
     </View>
-             
 
-				</View>
-
-
+	</View>
 	);
 }};
 
@@ -73,7 +70,4 @@ const styles = StyleSheet.create({
         fontSize: 20, 
         color: colors.COL_WHITE 
     },
- 
-
-
 });

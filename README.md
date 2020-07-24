@@ -12,13 +12,12 @@ https://expo.io/learn
 
 install the expo client on your device. (Requires SDK V35 compatible app)
 
-CD into Difrent/Beta and
 
-npm install
+yarn install
 
 to update the node modules.
 
-run
+run the app:
 
 expo start
 

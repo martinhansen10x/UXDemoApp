@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import {  StyleSheet, View } from 'react-native';
 import AppNavigator from './App/src/navigation/AppNavigator';
 
@@ -13,12 +13,6 @@ export default function App(props) {
     );
   
 }
-
-
-
-
-
-
 
 const styles = StyleSheet.create({
   container: {

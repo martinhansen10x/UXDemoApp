@@ -23,26 +23,21 @@ import PropertyCosts from './PropertyCosts';
 class HomeMatchDetailCostsView extends Component 
  {
 
-
-
-
     constructor(props) {
         super(props);
         this.state = {
         };
-    }
+    };
 
 	onLayout = e => {
         this.setState({
             width: e.nativeEvent.layout.width
         });
 	};
-	
 
 	_handleMapRegionChange = mapRegion => {
 		this.setState({ mapRegion });
 	  };
-
 
 	render (){
 		const {searchIndex} = this.props;
@@ -112,9 +107,7 @@ class HomeMatchDetailCostsView extends Component
 					total_costs = {total_costs}
 				/>
 		
-                </View>
-			
-				
+                </View>	
 			</ScrollView>
 		</ImageBackground>
 	);
