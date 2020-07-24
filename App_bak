@@ -1,0 +1,32 @@
+import React from "react";
+import { Text } from "react-native";
+import { createAppContainer} from "react-navigation";
+import { createStackNavigator } from "react-navigation-stack";
+import styles from "./assets/styles";
+import RenterIndexView from "./App/src/renterApp/IndexView";
+import HomeScreen from "./App/src/containers/Home";
+import MatchesScreen from "./App/src/containers/Matches";
+import MessagesScreen from "./App/src/containers/Messages";
+import ProfileScreen from "./App/src/containers/Profile";
+import { FontAwesome, MaterialIcons } from '@expo/vector-icons';
+
+import AppNavigator from './App/src/navigation/AppNavigator';
+
+
+
+
+const App = createStackNavigator(
+	{
+		Explore: { screen: RenterIndexView, navigationOptions : {
+      header: null
+    } },
+		Matches: { screen: MatchesScreen},
+		Chat: { screen: MessagesScreen},
+		Profile: { screen: ProfileScreen, navigationOptions : {
+      header: null
+    }},
+  },
+	
+);
+
+export default createAppContainer(App);

@@ -1,0 +1,17 @@
+export default {
+    COL_BLACK: '#1E1E1E',
+    COL_PLATINUM: '#6B777C',
+    COL_SILVER: '#d8d8d8',
+    COL_WHITE: '#ffffff',
+    COL_RED: '#DC2A4D',
+    COL_ORANGE: '#D24702',
+    COL_SAND: '#C8D882',
+    COL_RACING_GREEN: '#024731',
+    COL_CORE_GREEN: '#006A4D',
+    COL_APPLE_GREEN: '#77B800',
+    COL_MUTED_GREEN: '#2D8259',
+    COL_BANK_BLUE: '#2178B0',
+    COL_BANK_BLUE_DARK: '#002973',
+    COL_PURPLE: '#481468',
+    COL_HOTPINK: '#FF007F',
+}
